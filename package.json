@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/demo",
+      "packages/ng-zorro-antd/components"
+    ]
+  },
+  "scripts": {
+    "start": "yarn workspace demo run start --port 4302"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
